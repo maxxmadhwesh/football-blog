@@ -7,9 +7,9 @@ function Header() {
       <div className="container header-container">
         <div className="logo">MyBlog</div>
         <nav className="nav-links">
-          <a href="#blogs">All Blogs</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#shorts">Sh⚽️rts</a>
+          <a href="#Analysis">Analysis</a>
+          <a href="#contact">Contact me</a>
         </nav>
       </div>
     </header>

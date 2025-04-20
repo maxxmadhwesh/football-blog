@@ -10,6 +10,7 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Ensure full height */
+  background-color: #d0bde3;
 }
 
 /* Push footer to the bottom */
@@ -21,3 +22,33 @@ html, body, #root {
   align-items: center;
   padding: 2rem;
 }
+
+.welcome{
+  text-rendering: geometricPrecision;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.titledec{
+  font-weight: bold;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ballstop {
+  display: inline-block;
+  animation: rotate 2s linear infinite;
+}
+
+.datadiscussion{
+  width : 80%;
+  margin-top: 20px;
+}
+
