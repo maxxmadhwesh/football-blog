@@ -1,0 +1,60 @@
+.expandable-topic {
+    width: 80%;
+    margin: 1rem 5rem;
+    padding: 1rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .topic-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  .toggle-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+  }
+  
+  .blog-list {
+    margin-top: 1rem;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .blog-item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blog-content {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    font-weight: 300;
+    color: #302626;
+    font-size: 0.95rem;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header.jsx';
 import Content from './components/Content.jsx';
 import Footer from './components/Footer.jsx';
+import ExpandableTopic from './components/ExpandableTopic.jsx'
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <div className="main-content">
         <Content />
       </div>
